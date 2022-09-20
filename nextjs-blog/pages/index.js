@@ -22,8 +22,12 @@ export default function Home({allPostsData}) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>I'm a fourth year data science student at NTNU. I like to play tennis, I like to make <a href="https://nextjs.org/learn"> sculptures</a>. I like to endeavour in many things.</p>
+
+        <p> I have mostly developed full applications for crypto sphere such as sure and minta, but also have my own smaller projects such as</p>
+
+        <p>You can connect with me on twitter @si0ud or here <a href="https://www.linkedin.com/in/adam-sioud-316b48191/?originalSubdomain=no"> Linkedin</a> or shoot me an email.</p>
         <p>
-        All blog posts below are concerend financial matters as I'm highlity interested in that field of research too.{' '}
+        All blog posts below are for now only concerend financial matters as I'm highlity interested in that field of research too.{' '}
           
         </p>
       </section>

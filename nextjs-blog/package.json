@@ -6,9 +6,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.0.0-rc.10",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/react": "^18.0.20",
+    "autoprefixer": "^10.4.11",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
