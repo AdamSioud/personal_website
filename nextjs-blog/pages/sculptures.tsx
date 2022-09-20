@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
+import utilStyles from '../styles/utils.module.css';
 
 
 
@@ -32,7 +33,8 @@ type Image = {
 
 const hStyle = {
   fontSize: '20px',
-  textAlign: 'center'
+  textAlign: 'center',
+  fontWeight: "bold"
 };
 
 const pStyle = {
@@ -47,6 +49,7 @@ export default function Gallery({ images }: { images: Image[] }) {
   return (
     <div>
       <h1 style={hStyle}> ADAM SCULPTURES </h1>
+   
 
       <p style={pStyle}> ‘Paintings are sacred objects in some sense …. and we gaze at them in ignorance and wonder. 
       And the reason for that is that the unknown shines through the mattes in partially articulated form. …… Well that’s the rule of art …. and that’s the rule of artists. 
@@ -64,10 +67,14 @@ export default function Gallery({ images }: { images: Image[] }) {
         {images.map((image) => (
           <BlurImage key={image.id} image={image} />
         ))}
+        
       </div>
+      
     </div>
-
+          
+          
     </div>
+    
   )
 }
 
