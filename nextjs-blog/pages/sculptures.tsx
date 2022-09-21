@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
-import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
+
 
 
 
@@ -45,8 +46,13 @@ const pStyle = {
   
 };
 
+const backToHome = {
+  margin: '3rem 0 0'
+}
+
 export default function Gallery({ images }: { images: Image[] }) {
   return (
+   
     <div>
       <h1 style={hStyle}> ADAM SCULPTURES </h1>
    
@@ -70,10 +76,19 @@ export default function Gallery({ images }: { images: Image[] }) {
         
       </div>
       
+
+      <div style={backToHome}>
+          <Link href="/">
+            <a>← Back to home</a>
+          </Link>
+        </div>
     </div>
+
+ 
           
           
     </div>
+
     
   )
 }
