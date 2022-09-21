@@ -34,13 +34,13 @@ type Image = {
 
 const hStyle = {
   fontSize: '20px',
-  textAlign: 'center',
+  textAlign: 'center' as const,
   fontWeight: "bold"
 };
 
 const pStyle = {
   fontSize: '10px',
-  textAlign: 'center',
+  textAlign: 'center' as const,
   width:"75%",
   margin:"auto"
   
