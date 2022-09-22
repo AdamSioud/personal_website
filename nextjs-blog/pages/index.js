@@ -41,7 +41,8 @@ export default function Home({allPostsData}) {
         <p>
         Whilst I have a diverse set of interests, finance is the discipline where I by far have spent the most time. 
         As a result I find it suitable to write blog posts about different topics within finance I find interesting. 
-        Most blog posts below will mostly regard the finance sector, but also regard psychology, architecture, art and more!
+        Most blog posts below will mostly regard the finance sector, but in the future, posts might also include topics
+        such as psychology, architecture, art!
 
        
         </p>
