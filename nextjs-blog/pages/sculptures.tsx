@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 export async function getStaticProps() {
   const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-    process.env.NEXT_SUPABASE_SERVICE_ROLE_KEY || ''
+    "https://xkvpjhjgvnhrilaijovz.supabase.co",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhrdnBqaGpndm5ocmlsYWlqb3Z6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY2MzY2NjAwOCwiZXhwIjoxOTc5MjQyMDA4fQ.PQ5M5Vcj5cVq07spdIIGKuYL8bR-KwpS_HdpuRTaJTk"
   )
 
   const { data } = await supabaseAdmin.from('images').select('*').order('id')
