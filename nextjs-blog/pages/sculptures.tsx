@@ -62,7 +62,7 @@ export default function Gallery({ images }: { images: Image[] }) {
       they can’t even help it. …… Open people have to be creative. They have to be, otherwise they die. They don’t have any vitality and so they’re cursed with the necessity of 
       putting a foot out into the unknown and making sense of it. They’re also cursed with the necessity of trying to make a living while they’re doing that which they can’t 
       because it’s almost impossible to monetise creative action. It’s not that creative action is without value: creative people are entrepreneurs; creative people revitalise cities;
-       creative people make things magnificent and beautiful. …… A real piece of art is a window into the transcendental. And you need that in your life because you’re finite and limited and 
+       creative people make things magnificent and beautiful. …… A real piece of art is an window into the transcendental. And you need that in your life because you’re finite and limited and 
        bounded by your ignorance and your lack of knowing. And unless you can make a connection to the transcendental, 
       then you don’t have the strength to prevail. Without beauty, there’s no call to higher being. Life is too dismal and tragic with the absence of the sublime.’ - Jordan Peterson </p>
 
